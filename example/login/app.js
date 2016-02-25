@@ -11,7 +11,7 @@ var DRIVE_CLIENT_SECRET = "---your--drive--client--secret--";
 //   To support persistent login sessions, Passport needs to be able to
 //   serialize users into and deserialize users out of the session.  Typically,
 //   this will be as simple as storing the user ID when serializing, and finding
-//   the user by ID when deserializing.  However, since this example does not
+//   the user by ID when deserializing. However, since this example does not
 //   have a database of user records, the complete Google profile is
 //   serialized and deserialized.
 passport.serializeUser( function (user, done) {
@@ -80,8 +80,8 @@ app.get('/login', function (req, res){
 // GET /auth/google-drive
 //   Use passport.authenticate() as route middleware to authenticate the
 //   request. The first step in Google authentication will involve
-//   redirecting the user to Google.com.  After authorization, Google
-//   will redirect the user back to this application at /auth/box/callback
+//   redirecting the user to Google.com. After authorization, Google
+//   will redirect the user back to this application at /auth/google-drive/callback
 app.get('/auth/google-drive',
   passport.authenticate('google-drive'),
   function (req, res){
@@ -89,7 +89,7 @@ app.get('/auth/google-drive',
     // function will not be called.
   });
 
-// GET /auth/box/callback
+// GET /auth/google-drive/callback
 //   Use passport.authenticate() as route middleware to authenticate the
 //   request.  If authentication fails, the user will be redirected back to the
 //   login page.  Otherwise, the primary route function function will be called,
