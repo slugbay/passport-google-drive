@@ -1,6 +1,6 @@
 {
     "name": "passport-google-drive",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "Google Drive authentication strategy for Passport.",
     "keywords": ["passport", "google", "drive", "drive.google.com", "oauth", "oauth 2.0", "auth", "api", "authentication", "slugbay", "slugbay.com"],
     "repository": {

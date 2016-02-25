@@ -17,7 +17,7 @@ middleware, including [Express](http://expressjs.com/).
 
 #### Configure Strategy
 
-The box authentication strategy authenticates users using a box
+The Google Drive authentication strategy authenticates users using a Google
 account and OAuth 2.0 tokens.  The strategy requires a `verify` callback, which
 accepts these credentials and calls `done` providing a user, as well as
 `options` specifying a client ID, client secret, and callback URL.
