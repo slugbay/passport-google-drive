@@ -26,7 +26,7 @@ The consumer key and secret are obtained by [creating an application](https://co
 Google's [developer](https://developers.google.com) site.
 
 ```js
-    passport.use(new BoxStrategy({
+    passport.use(new GoogleDriveStrategy({
         clientID: DRIVE_CLIENT_ID,
         clientSecret: DRIVE_CLIENT_SECRET,
         callbackURL: "http://127.0.0.1:3000/auth/google-drive/callback"
