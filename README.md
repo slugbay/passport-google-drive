@@ -1,5 +1,6 @@
 # Passport-google-drive
 
+[![NPM](https://nodei.co/npm/passport-google-drive.png?downloads=true)](https://nodei.co/npm/passport-google-drive/) [![NPM](https://nodei.co/npm-dl/passport-google-drive.png?months=5&height=2)](https://nodei.co/npm/passport-google-drive/)
 
 [Passport](https://github.com/jaredhanson/passport) strategy for authenticating
 with [Google Drive](https://drive.google.com/) using the OAuth 2.0 API.
